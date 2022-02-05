@@ -68,6 +68,7 @@ body {
     bottom: 50px;
     left: 60px;
     font-size: 3rem;
+    transition: opacity 0.3s ease-in 0.6s;
     
 }
 
