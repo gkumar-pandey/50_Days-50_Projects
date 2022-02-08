@@ -1,18 +1,23 @@
 const progress = document.getElementById("progress");
-let pre = document.getElementsByClassName("pre");
-let next = document.getElementsByClassName("next");
-let circles = document.querySelectorAll(".circle");
+const pre = document.getElementsByClassName("pre");
+const next = document.getElementsByClassName("next");
+const circles = document.querySelectorAll(".circle");
 
 let currentActive = 1;
 
-next.addEventListener('cick', () => {
+next.addEventListener("click", ()=> {
     currentActive++;
+    console.log(currentActive);
+})
 
-    if(currentActive>circles.length){
-        currentActive = circles.length;
-    }
-    update();
-});
+// next.addEventListener('cick', () => {
+//     currentActive++;
+
+//     if(currentActive>circles.length){
+//         currentActive = circles.length;
+//     }
+//     update();
+// });
 
 pre.addEventListener('cick', ()=> {
     currentActive--;
