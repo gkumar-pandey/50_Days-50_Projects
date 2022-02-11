@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden ;
+  height: 100vh;
+}
+
+.bg {
+  background-image: url("./img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  top: 0px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  height:  100vh;
+  width: 100vw;
+  /* filter: blur(0px);  */
+}
+
+.percent {
+    font-size: 60px;
+    color: #fafafa;
+    font-weight: bolder;
+}
